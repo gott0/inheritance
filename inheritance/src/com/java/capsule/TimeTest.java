@@ -10,7 +10,7 @@ public class TimeTest {
 		
 	}
 	
-	//»ó¼Ó : extends
-	//´ÙÇü¼º : ¿À¹ö·Îµù, ¿À¹ö¶óÀÌµù , »ó¼ÓÀ» È°¿ë
-	//Ä¸½¶È­(µ¥ÀÌÅÍº¸È£): Á¢±ÙÁ¦¾îÀÚ(private)
+	//ìƒì† : extends
+	//ë‹¤í˜•ì„± : ì˜¤ë²„ë¡œë”©, ì˜¤ë²„ë¼ì´ë”© , ìƒì†ì„ í™œìš©
+	//ìº¡ìŠí™”(ë°ì´í„°ë³´í˜¸): ì ‘ê·¼ì œì–´ìž(private)
 }

@@ -6,24 +6,24 @@ public class CarTest {
 //		FireEngine f = new FireEngine();
 //		Ambulance ab = new Ambulance();
 		
-		//´ÙÇü¼ºÀ» Àû¿ëÇÑ °´Ã¼»ı¼º
-		//ÂüÁ¶ÇüÀÇ Çüº¯È¯(ÂüÁ¶ÇÒ ¼ö ÀÖ´Â ¸â¹öÀÇ °¹¼ö°¡ º¯ÇÑ´Ù.)*
+		//ë‹¤í˜•ì„±ì„ ì ìš©í•œ ê°ì²´ìƒì„±
+		//ì°¸ì¡°í˜•ì˜ í˜•ë³€í™˜(ì°¸ì¡°í•  ìˆ˜ ìˆëŠ” ë©¤ë²„ì˜ ê°¯ìˆ˜ê°€ ë³€í•œë‹¤.)*
 //		Car car = null;
-//		FireEngine fe = new FireEngine(); // ÂüÁ¶º¯¼ö´Â ÁÖ¼Ò°ªÀ» °øÀ¯
+//		FireEngine fe = new FireEngine(); // ì°¸ì¡°ë³€ìˆ˜ëŠ” ì£¼ì†Œê°’ì„ ê³µìœ 
 //		FireEngine fe2 = null;
 //		
 //		fe.water();
-//		car = fe; // 'ÀÚµ¿Çüº¯È¯' : Car Å¸ÀÔ = FireEngine Å¸ÀÔ(ºÎ¸ğ=Å«Å¸ÀÔ, ÀÚ½Ä=ÀÛÀº Å¸ÀÔ - '»ó¼Ó±¸Á¶¿¡¼­ °¡´É')
-//		          // double = int (¾Õ¿¡ ÀÖ´Â µ¥ÀÌÅÍ Å¸ÀÔÀÌ Å©¸é °¡´ÉÇÏ´Ù - °ªÀÇ ¹üÀ§¿¡ ÀÇÇÑ)
-//		//car.water(); error - ³»ºÎÀûÀ¸·Î Çüº¯È¯ÀÌ ÀÏ¾î³ª º¯¼ö°¡ CarÅ¸ÀÔÀÌ µÇ¹Ç·Î FireEngineÀÇ ¸â¹ö¸¦ »ç¿ëÇÒ ¼ö ¾ø´Ù.
+//		car = fe; // 'ìë™í˜•ë³€í™˜' : Car íƒ€ì… = FireEngine íƒ€ì…(ë¶€ëª¨=í°íƒ€ì…, ìì‹=ì‘ì€ íƒ€ì… - 'ìƒì†êµ¬ì¡°ì—ì„œ ê°€ëŠ¥')
+//		          // double = int (ì•ì— ìˆëŠ” ë°ì´í„° íƒ€ì…ì´ í¬ë©´ ê°€ëŠ¥í•˜ë‹¤ - ê°’ì˜ ë²”ìœ„ì— ì˜í•œ)
+//		//car.water(); error - ë‚´ë¶€ì ìœ¼ë¡œ í˜•ë³€í™˜ì´ ì¼ì–´ë‚˜ ë³€ìˆ˜ê°€ Caríƒ€ì…ì´ ë˜ë¯€ë¡œ FireEngineì˜ ë©¤ë²„ë¥¼ ì‚¬ìš©í•  ìˆ˜ ì—†ë‹¤.
 //		car.stop();
-//		fe2 = (FireEngine)car; // ÀÛÀº Å¸ÀÔ(fe2)¿¡ Å« Å¸ÀÔ(car)À» Àû¿ë ½ÃÅ³¶© '°­Á¦Çüº¯È¯'½ÃÇà
+//		fe2 = (FireEngine)car; // ì‘ì€ íƒ€ì…(fe2)ì— í° íƒ€ì…(car)ì„ ì ìš© ì‹œí‚¬ë• 'ê°•ì œí˜•ë³€í™˜'ì‹œí–‰
 //		fe2.water();
 		
 		FireEngine fe = new FireEngine();
-		Ambulance ab = new Ambulance(); //ÀÚ½Ä
+		Ambulance ab = new Ambulance(); //ìì‹
 		
-		Car car = new Car(); //ºÎ¸ğ
+		Car car = new Car(); //ë¶€ëª¨
 		car.doWork(fe);
 		car.doWork(ab);
 	}

@@ -12,21 +12,21 @@ public class Car {
 		System.out.println("stop");
 	}
 
-   //*´ÙÇü¼º(polymorphism)ÀÌ¶õ ÇÏ³ªÀÇ °´Ã¼°¡ ¿©·¯ °¡Áö Å¸ÀÔÀ» °¡Áú ¼ö ÀÖ´Â °ÍÀ» ÀÇ¹ÌÇÕ´Ï´Ù.
-	// ¸Å°³º¯¼ö Car Å¸ÀÔÀ¸·Î Á¤ÀÇ
-	// Car -> Car,FireEngine,Ambulance ÀÚ½ÄÅ¸ÀÔ °´Ã¼¸¦ °ªÀ¸·Î ¹ÞÀ» ¼ö ÀÖ´Ù.
-	void doWork(Car c) { // ¸Å°³º¯¼ö¸¦ È°¿ëÇÑ °´Ã¼ÀÇ ´ÙÇü¼º
+   //*ë‹¤í˜•ì„±(polymorphism)ì´ëž€ í•˜ë‚˜ì˜ ê°ì²´ê°€ ì—¬ëŸ¬ ê°€ì§€ íƒ€ìž…ì„ ê°€ì§ˆ ìˆ˜ ìžˆëŠ” ê²ƒì„ ì˜ë¯¸í•©ë‹ˆë‹¤.
+	// ë§¤ê°œë³€ìˆ˜ Car íƒ€ìž…ìœ¼ë¡œ ì •ì˜
+	// Car -> Car,FireEngine,Ambulance ìžì‹íƒ€ìž… ê°ì²´ë¥¼ ê°’ìœ¼ë¡œ ë°›ì„ ìˆ˜ ìžˆë‹¤.
+	void doWork(Car c) { // ë§¤ê°œë³€ìˆ˜ë¥¼ í™œìš©í•œ ê°ì²´ì˜ ë‹¤í˜•ì„±
 
-		// c.water(); - error // 'water();'´Â  FireEngineÅ¬·¡½º¿¡¸¸ Á¸ÀçÇÏ´Â ¸Þ¼Òµå
-		                      // µû¶ó¼­ ÇöÀçÀÇ CarÅ¸ÀÔ º¯¼ö·Î´Â »ç¿ë ÇÒ ¼ö ¾ø´Ù. 
-                              // »ç¿ëÇÏ·Á¸é FireEngineÅ¸ÀÔ º¯¼ö¸¦ »ç¿ë ÇØ¾ßµÊ 
-                              // (ºÎ¸ðÅ¬·¡½º Å¸ÀÔÀº ÀÚ½Ä Å¬·¡½ºÀÇ °´Ã¼¸¦ °ªÀ¸·Î ¹ÞÀ» ¼ø ÀÖÁö¸¸
-		                      // ÀÚ½ÄÅ¬·¡½ºÀÇ ¸Þ¼Òµå¸¦ »ç¿ë ÇÒ ¼ø ¾ø´Ù.) 
-		                      // = instanceof¸¦ ÀÌ¿ëÇÏ¿© °´Ã¼ Å¸ÀÔ È®ÀÎ ÈÄ °­Á¦Çüº¯È¯ÇÏ¿© »ç¿ëÇÑ´Ù.
+		// c.water(); - error // 'water();'ëŠ”  FireEngineí´ëž˜ìŠ¤ì—ë§Œ ì¡´ìž¬í•˜ëŠ” ë©”ì†Œë“œ
+		                      // ë”°ë¼ì„œ í˜„ìž¬ì˜ Caríƒ€ìž… ë³€ìˆ˜ë¡œëŠ” ì‚¬ìš© í•  ìˆ˜ ì—†ë‹¤. 
+                              // ì‚¬ìš©í•˜ë ¤ë©´ FireEngineíƒ€ìž… ë³€ìˆ˜ë¥¼ ì‚¬ìš© í•´ì•¼ë¨ 
+                              // (ë¶€ëª¨í´ëž˜ìŠ¤ íƒ€ìž…ì€ ìžì‹ í´ëž˜ìŠ¤ì˜ ê°ì²´ë¥¼ ê°’ìœ¼ë¡œ ë°›ì„ ìˆœ ìžˆì§€ë§Œ
+		                      // ìžì‹í´ëž˜ìŠ¤ì˜ ë©”ì†Œë“œë¥¼ ì‚¬ìš© í•  ìˆœ ì—†ë‹¤.) 
+		                      // = instanceofë¥¼ ì´ìš©í•˜ì—¬ ê°ì²´ íƒ€ìž… í™•ì¸ í›„ ê°•ì œí˜•ë³€í™˜í•˜ì—¬ ì‚¬ìš©í•œë‹¤.
 		
 		// instanceof
-		// °´Ã¼ÀÇ Å¸ÀÔÀ» È®ÀÎÇÑ´Ù.
-		if (c/* (ÂüÁ¶º¯¼ö) */ instanceof FireEngine /* Å¬·¡½ºÀÌ¸§(¾Ë°í ½ÍÀº Å¸ÀÔ) */) {
+		// ê°ì²´ì˜ íƒ€ìž…ì„ í™•ì¸í•œë‹¤.
+		if (c/* (ì°¸ì¡°ë³€ìˆ˜) */ instanceof FireEngine /* í´ëž˜ìŠ¤ì´ë¦„(ì•Œê³  ì‹¶ì€ íƒ€ìž…) */) {
 			FireEngine fe = (FireEngine) c;
 			fe.water();
 		} else if (c instanceof Ambulance) {

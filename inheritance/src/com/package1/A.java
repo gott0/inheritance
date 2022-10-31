@@ -7,7 +7,7 @@ public class A extends E{
 	public int a;
 
 	public A(int a) {
-		super(10); //EÀÇ »ı¼ºÀÚ°¡ privateÇÏ±â ¶§¹®¿¡ È£Ãâ ºÒ°¡
+		super(10); //Eì˜ ìƒì„±ìê°€ privateí•˜ê¸° ë•Œë¬¸ì— í˜¸ì¶œ ë¶ˆê°€
 		this.a = a;
 	}
 	

@@ -6,29 +6,29 @@ import com.package3.E;
 public class AccessModifiy {
 
 	public static void main(String[] args) {
-	//*Á¢±ÙÁ¦¾îÀÚ
+	//*ì ‘ê·¼ì œì–´ì
 		//private < default < protected < public
-		//public : ¸ğµç ÆĞÅ°Áö °æ·Î¿¡¼­ »ç¿ë°¡´É
-		//protected : °°Àº ÆĞÅ°Áö ¶Ç´Â »ó¼Ó¹Ş´Â(ÀÚ³àÅ¬·¡½º) °ü°è¿¡ ÀÖ´Â ´Ù¸¥ ÆĞÅ°Áö¿¡¼­ »ç¿ë°¡´É
-		//default : °°Àº ÆĞÅ°Áö
-		//private : Å¬·¡½º ³»¿¡¼­¸¸ »ç¿ë°¡´É
+		//public : ëª¨ë“  íŒ¨í‚¤ì§€ ê²½ë¡œì—ì„œ ì‚¬ìš©ê°€ëŠ¥
+		//protected : ê°™ì€ íŒ¨í‚¤ì§€ ë˜ëŠ” ìƒì†ë°›ëŠ”(ìë…€í´ë˜ìŠ¤) ê´€ê³„ì— ìˆëŠ” ë‹¤ë¥¸ íŒ¨í‚¤ì§€ì—ì„œ ì‚¬ìš©ê°€ëŠ¥
+		//default : ê°™ì€ íŒ¨í‚¤ì§€
+		//private : í´ë˜ìŠ¤ ë‚´ì—ì„œë§Œ ì‚¬ìš©ê°€ëŠ¥
 		
-		//Å¬·¡½º: public , default
-		//º¯¼ö: public , protected , default , private
-		//»ı¼ºÀÚ: public , protected , default , private
-		//¸Ş¼Òµå: public , protected , default , private
-		//´Ü Áö¿ªº¯¼ö´Â »ç¿ëºÒ°¡.
+		//í´ë˜ìŠ¤: public , default
+		//ë³€ìˆ˜: public , protected , default , private
+		//ìƒì„±ì: public , protected , default , private
+		//ë©”ì†Œë“œ: public , protected , default , private
+		//ë‹¨ ì§€ì—­ë³€ìˆ˜ëŠ” ì‚¬ìš©ë¶ˆê°€.
 		
-		//publicÇÑ °æ¿ì¿¡¸¸ ÆĞÅ°Áö¿Í »ó°ü¾øÀÌ »ı¼º°ú »ó¼ÓÀÌ °¡´ÉÇÏ´Ù.
-		//´Ü, protected´Â »ó¼Ó¿¡ ÀÇÇØ ´Ù¸¥ ÆĞÅ°Áö¿¡¼­ »ç¿ëÀÌ °¡´ÉÇÔ.
+		//publicí•œ ê²½ìš°ì—ë§Œ íŒ¨í‚¤ì§€ì™€ ìƒê´€ì—†ì´ ìƒì„±ê³¼ ìƒì†ì´ ê°€ëŠ¥í•˜ë‹¤.
+		//ë‹¨, protectedëŠ” ìƒì†ì— ì˜í•´ ë‹¤ë¥¸ íŒ¨í‚¤ì§€ì—ì„œ ì‚¬ìš©ì´ ê°€ëŠ¥í•¨.
 		
-		//(µû¶ó¼­ »ı¼ºÀÚ¿Í privateÇÑ ¿ä¼ÒµéÀº »ó¼ÓÀÌ ºÒ°¡´ÉÇÏ´Ù.)
+		//(ë”°ë¼ì„œ ìƒì„±ìì™€ privateí•œ ìš”ì†Œë“¤ì€ ìƒì†ì´ ë¶ˆê°€ëŠ¥í•˜ë‹¤.)
 		
 		
 		B b = new B(10);
-		//C c = new C(10); //error: »ı¼ºÀÚ°¡ defaultÇÏ±â ¶§¹®(publicÀ¸·Î ¾È ¹Ù²ãÁà¼­)
-		//E e = new E(30); //error: »ı¼ºÀÚ°¡ privateÇÏ±â ¶§¹®
-		//F f = new F(50); // error: »ı¼ºÀÚ°¡ privateÇÏ±â ¶§¹®
+		//C c = new C(10); //error: ìƒì„±ìê°€ defaultí•˜ê¸° ë•Œë¬¸(publicìœ¼ë¡œ ì•ˆ ë°”ê¿”ì¤˜ì„œ)
+		//E e = new E(30); //error: ìƒì„±ìê°€ privateí•˜ê¸° ë•Œë¬¸
+		//F f = new F(50); // error: ìƒì„±ìê°€ privateí•˜ê¸° ë•Œë¬¸
 		
 	}
 }

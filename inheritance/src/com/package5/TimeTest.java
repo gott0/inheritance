@@ -9,7 +9,7 @@ public class TimeTest {
 		//t.hour = 10;
 		//t.min = 10;
 		//t.nanosec = 10;
-		t.sec = 10; //¼Ä¼º °üÁ¡¿¡¼­´Â public¸¸ °¡´É.
+		t.sec = 10; //ì…ì„± ê´€ì ì—ì„œëŠ” publicë§Œ ê°€ëŠ¥.
 	}
 
 }

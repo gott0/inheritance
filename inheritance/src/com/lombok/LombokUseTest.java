@@ -4,7 +4,7 @@ public class LombokUseTest {
 
 	public static void main(String[] args) {
 		LombokUse lb = new LombokUse();
-		lb.setName("È«±æÀÌ");
+		lb.setName("í™ê¸¸ì´");
 		System.out.println(lb.getName());
 
 	}

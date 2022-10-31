@@ -14,9 +14,8 @@ public class B extends F{
 	public void printB() {
 		System.out.println(b);
 		System.out.println(f);
-		printF(); //B¿Í F´Â ´Ù¸¥ ÆĞÅ°ÁöÀÌÁö¸¸ 
-		          //»ó¼Ó±¸Á¶¿¡ ÀÖÀ¸¸é ºÎ¸ğ Å¬·¡½ºÀÇ Á¢±ÙÁ¦¾î°¡ 
-		          //protectedÀÏ ½Ã ¿¹¿ÜÀûÀ¸·Î Á¢±Ù°¡´É 
+		printF(); //Bì™€ FëŠ” ë‹¤ë¥¸ íŒ¨í‚¤ì§€ì´ì§€ë§Œ 
+		          //ìƒì†êµ¬ì¡°ì— ìˆìœ¼ë©´ ë¶€ëª¨ í´ë˜ìŠ¤ì˜ ì ‘ê·¼ì œì–´ê°€ 
+		          //protectedì¼ ì‹œ ì˜ˆì™¸ì ìœ¼ë¡œ ì ‘ê·¼ê°€ëŠ¥ 
 	}
 }
-

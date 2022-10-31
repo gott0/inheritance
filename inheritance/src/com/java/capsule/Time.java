@@ -4,28 +4,28 @@ public class Time {
 	private int hour;
 	private int minute;
 	private int second;
-    // ¦¦´Ù¸¥ Å¬·¡½º¿¡¼­´Â ºÒ·¯¿ÀÁö ¸ø ÇÏÁö¸¸,°°Àº Å¬·¡½º¿¡¼± °¡´É
-	// getter/setter¸Ş¼Òµå¸¦ È°¿ëÇÏ¸é ´Ù¸¥ Å¬·¡½º¿¡¼­ ºÒ·¯¿À±â°¡ °¡´É
+    // â””ë‹¤ë¥¸ í´ë˜ìŠ¤ì—ì„œëŠ” ë¶ˆëŸ¬ì˜¤ì§€ ëª» í•˜ì§€ë§Œ,ê°™ì€ í´ë˜ìŠ¤ì—ì„  ê°€ëŠ¥
+	// getter/setterë©”ì†Œë“œë¥¼ í™œìš©í•˜ë©´ ë‹¤ë¥¸ í´ë˜ìŠ¤ì—ì„œ ë¶ˆëŸ¬ì˜¤ê¸°ê°€ ê°€ëŠ¥
 	final double PI;
-	//¦¦»ó¼ö(°ªÀ» º¯°æ ÇÒ ¼ö ¾ø´Â µ¥ÀÌÅÍ)·Î ¸¸µé±â À§ÇØ 'final' ¾Õ¿¡ ºÙÀÎ´Ù.
-	//»ó¼öÀÇ °æ¿ì º¯¼ö¸¦ ´ë¹®ÀÚ·Î (°³¹ßÀÚ±ÔÄ¢)
-	//»ó¼ö »ı¼ºÀÚ¸¦ ÅëÇÑ ÃÊ±âÈ­ °¡´É
+	//â””ìƒìˆ˜(ê°’ì„ ë³€ê²½ í•  ìˆ˜ ì—†ëŠ” ë°ì´í„°)ë¡œ ë§Œë“¤ê¸° ìœ„í•´ 'final' ì•ì— ë¶™ì¸ë‹¤.
+	//ìƒìˆ˜ì˜ ê²½ìš° ë³€ìˆ˜ë¥¼ ëŒ€ë¬¸ìë¡œ (ê°œë°œìê·œì¹™)
+	//ìƒìˆ˜ ìƒì„±ìë¥¼ í†µí•œ ì´ˆê¸°í™” ê°€ëŠ¥
 	public Time(double pI) {
 		super();
 		PI = pI;
 	}
 	
 	
-  //getter / setter ¸Ş¼Òµå
-	public int getHour() { //°¡Á®(ÀĞ¾î)¿À´Â °Å
+  //getter / setter ë©”ì†Œë“œ
+	public int getHour() { //ê°€ì ¸(ì½ì–´)ì˜¤ëŠ” ê±°
 		return hour;
 	} 
 
-	public void setHour(int hour) { //¸¸µå´Â °Å
+	public void setHour(int hour) { //ë§Œë“œëŠ” ê±°
 		if(hour < 0 || hour > 23) {
-			System.out.println("À¯È¿ÇÏÁö ¾ÊÀº °ªÀÔ´Ï´Ù.");
+			System.out.println("ìœ íš¨í•˜ì§€ ì•Šì€ ê°’ì…ë‹ˆë‹¤.");
 			return;
-		}// ½Ã°£ ¿ÜÀÇ ¼ıÀÚ ±âÀÔ ½Ã ÇØ´ç ¹®±¸ Ãâ·Â = À¯È¿¼º°ËÁõ
+		}// ì‹œê°„ ì™¸ì˜ ìˆ«ì ê¸°ì… ì‹œ í•´ë‹¹ ë¬¸êµ¬ ì¶œë ¥ = ìœ íš¨ì„±ê²€ì¦
 		this.hour = hour;
 	}
 	
@@ -35,7 +35,7 @@ public class Time {
 	
 	public void setMinute(int minute) {
 		if(minute < 0 || minute > 23) {
-			System.out.println("À¯È¿ÇÏÁö ¾ÊÀº °ªÀÔ´Ï´Ù.");
+			System.out.println("ìœ íš¨í•˜ì§€ ì•Šì€ ê°’ì…ë‹ˆë‹¤.");
 			return;
 		}
 		this.minute = minute;
@@ -47,24 +47,24 @@ public class Time {
 	
 	public void setSecond(int second) {
 		if(second < 0 || second > 23) {
-			System.out.println("À¯È¿ÇÏÁö ¾ÊÀº °ªÀÔ´Ï´Ù.");
+			System.out.println("ìœ íš¨í•˜ì§€ ì•Šì€ ê°’ì…ë‹ˆë‹¤.");
 			return;
 		}
 		this.second = second;
 	}
-	// => source - generate getter and setter ¸Ş´º·Î ¸¸µé ¼öµµ ÀÕÀ½
+	// => source - generate getter and setter ë©”ë‰´ë¡œ ë§Œë“¤ ìˆ˜ë„ ì‡ìŒ
 	
 	
 	
-	//getter¸Ş¼Òµå /setter¸Ş¼Òµå ¸¸µé±â
+	//getterë©”ì†Œë“œ /setterë©”ì†Œë“œ ë§Œë“¤ê¸°
 	
-//         // ¦£¸®ÅÏÀ» À§ÇØ º¯¼ö Å¸ÀÔ°ú °°°Ô ÇØÁØ´Ù.
-//	public int getHour() { //get,set µÚ¿¡´Â º¯¼öÀÌ¸§À» ºÙÀÌ°í º¯¼öÀÌ¸§ÀÇ Ã¹±ÛÀÚ´Â ´ë¹®ÀÚ·Î ÇØ¼­ ¸Ş¼Òµå¸íÀ» Áş´Â´Ù.(±ÔÄ¢)
+//         // â”Œë¦¬í„´ì„ ìœ„í•´ ë³€ìˆ˜ íƒ€ì…ê³¼ ê°™ê²Œ í•´ì¤€ë‹¤.
+//	public int getHour() { //get,set ë’¤ì—ëŠ” ë³€ìˆ˜ì´ë¦„ì„ ë¶™ì´ê³  ë³€ìˆ˜ì´ë¦„ì˜ ì²«ê¸€ìëŠ” ëŒ€ë¬¸ìë¡œ í•´ì„œ ë©”ì†Œë“œëª…ì„ ì§“ëŠ”ë‹¤.(ê·œì¹™)
 //		return hour;		
 //	}
-//	      //¦£¸®ÅÏÇÏÁö ¾ÊÀ¸´Ï Å¸ÀÔÀ» ¸ÂÃâ ÇÊ¿ä ¾øÀ½
+//	      //â”Œë¦¬í„´í•˜ì§€ ì•Šìœ¼ë‹ˆ íƒ€ì…ì„ ë§ì¶œ í•„ìš” ì—†ìŒ
 //	public void setHour(int hour) {
-//		this.hour = hour; //¦¦º¯¼ö Å¸ÀÔÀ» ¸â¹öº¯¼ö¿Í ¸ÂÃçÁØ´Ù.
+//		this.hour = hour; //â””ë³€ìˆ˜ íƒ€ì…ì„ ë©¤ë²„ë³€ìˆ˜ì™€ ë§ì¶°ì¤€ë‹¤.
 //	}
 //	
 //	public int getMinute() {

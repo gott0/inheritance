@@ -14,8 +14,8 @@ public class BuyerTest {
 		buyer.buy(au);
 		buyer.buy(sm);
 		
-		System.out.println("ΐάΎΧ: "+buyer.money);
-		System.out.println("ΖχΐΞΖ®: "+buyer.bonusPoint);
+		System.out.println("μ”μ•΅: "+buyer.money);
+		System.out.println("ν¬μΈνΈ: "+buyer.bonusPoint);
 
 	}
 }

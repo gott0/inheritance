@@ -2,7 +2,7 @@ package com.package3;
 
 public class D {
 	C c = new C(10);
-	//E e = new E(30); //error: »ı¼ºÀÚ°¡ privateÇÏ±â ¶§¹®(°°Àº ÆĞÅ°Áö¶óµµ Á¢±ÙÀÌ ¾ÈµÊ)
+	//E e = new E(30); //error: ìƒì„±ìê°€ privateí•˜ê¸° ë•Œë¬¸(ê°™ì€ íŒ¨í‚¤ì§€ë¼ë„ ì ‘ê·¼ì´ ì•ˆë¨)
 	F f = new F(30);
 	
 

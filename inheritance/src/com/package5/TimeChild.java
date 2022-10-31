@@ -6,7 +6,7 @@ public class TimeChild extends Time {
 	void printAll() {
 		//System.out.println(hour);
 		//System.out.println(nanosec);
-		System.out.println(min); //protected   //»ó¼Ó °üÁ¡¿¡¼­´Â protected¿Í public¸¸ °¡´É.
+		System.out.println(min); //protected   //ìƒì† ê´€ì ì—ì„œëŠ” protectedì™€ publicë§Œ ê°€ëŠ¥.
 		System.out.println(sec); // public
 	}
 }

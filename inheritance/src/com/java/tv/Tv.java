@@ -1,15 +1,15 @@
 package com.java.tv;
-//import com.java.print.Print; //»ç¿ëÇÏ·Á´Â Å¬·¡½ºÀÇ ÆĞÅ°Áö°¡ ´Ù¸¥ °æ¿ì import¸¦ ÀÌ¿ëÇØ °¡Á®¿Ã ¼ö ÀÖ´Ù.
-//import com.java.print.Print3D; // ´Ü »ç¿ëÇÏ·Á´Â Å¬·¡½ºÀÇ ¸ğµç ¸â¹ö°¡  publicÀ¸·Î ¹Ù²ãÁà¾ß µÊ
-//import com.java.print.*; // ÆĞÅ°Áö ÀüÃ¼ÀÇ Å¬·¡½º¸¦ ¾µ °æ¿ì .*À» ½áÁØ´Ù
-//ÄÁÆ®·Ñ+½¬ÇÁÆ®+"o" (ÀÚµ¿ import ´ÜÃà±â)
+//import com.java.print.Print; //ì‚¬ìš©í•˜ë ¤ëŠ” í´ë˜ìŠ¤ì˜ íŒ¨í‚¤ì§€ê°€ ë‹¤ë¥¸ ê²½ìš° importë¥¼ ì´ìš©í•´ ê°€ì ¸ì˜¬ ìˆ˜ ìˆë‹¤.
+//import com.java.print.Print3D; // ë‹¨ ì‚¬ìš©í•˜ë ¤ëŠ” í´ë˜ìŠ¤ì˜ ëª¨ë“  ë©¤ë²„ê°€  publicìœ¼ë¡œ ë°”ê¿”ì¤˜ì•¼ ë¨
+//import com.java.print.*; // íŒ¨í‚¤ì§€ ì „ì²´ì˜ í´ë˜ìŠ¤ë¥¼ ì“¸ ê²½ìš° .*ì„ ì¨ì¤€ë‹¤
+//ì»¨íŠ¸ë¡¤+ì‰¬í”„íŠ¸+"o" (ìë™ import ë‹¨ì¶•ê¸°)
 
-import com.java.print.Print3D; //ÀÚµ¿ import ´ÜÃà±â¸¦ ÀÌ¿ëÇÑ °æ¿ì
+import com.java.print.Print3D; //ìë™ import ë‹¨ì¶•ê¸°ë¥¼ ì´ìš©í•œ ê²½ìš°
 
-public class Tv { //»ó¼Ó°ú Æ÷ÇÔÀ» °°ÀÌ ÇÏ´Â °æ¿ì
+public class Tv { //ìƒì†ê³¼ í¬í•¨ì„ ê°™ì´ í•˜ëŠ” ê²½ìš°
 
-//	Print print = new Print(10,20); // Æ÷ÇÔ°ü°è
-//	                        //ÀÎ½ºÅÏ½º ¸â¹ö º¯¼ö
+//	Print print = new Print(10,20); // í¬í•¨ê´€ê³„
+//	                        //ì¸ìŠ¤í„´ìŠ¤ ë©¤ë²„ ë³€ìˆ˜
 	
 	Print3D print = new Print3D(10,20,30);
 	

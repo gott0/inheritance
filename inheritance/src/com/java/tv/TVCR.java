@@ -1,5 +1,5 @@
 package com.java.tv;
 
-public class TVCR extends Tv {//»ó¼Ó     //Tv¿Í VCR Å¬·¡½ºÀÇ ±â´ÉÀ» °¡Á®¿À±â(Tv¸¦ »ó¼ÓÇÏ°í VCRÀº Æ÷ÇÔÇÏ´Â Å¬·¡½º)
-	VCR vcr = new VCR(); //Æ÷ÇÔ
+public class TVCR extends Tv {//ìƒì†     //Tvì™€ VCR í´ë˜ìŠ¤ì˜ ê¸°ëŠ¥ì„ ê°€ì ¸ì˜¤ê¸°(Tvë¥¼ ìƒì†í•˜ê³  VCRì€ í¬í•¨í•˜ëŠ” í´ë˜ìŠ¤)
+	VCR vcr = new VCR(); //í¬í•¨
 }

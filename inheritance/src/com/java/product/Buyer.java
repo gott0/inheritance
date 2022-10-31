@@ -4,19 +4,19 @@ public class Buyer {
 	int money = 1000;
 	int bonusPoint = 0;
 	
-	void buy(Product p) { // Tv, Computer, Audio ÀÚ½ÄÅ¸ÀÔ °´Ã¼¸¦ °ªÀ¸·Î ¹ŞÀ» ¼ö ÀÖ´Ù.(Product°¡ Å¸ÀÔÀÇ °øÅëºĞ¸ğ°³³ä)
+	void buy(Product p) { // Tv, Computer, Audio ìì‹íƒ€ì… ê°ì²´ë¥¼ ê°’ìœ¼ë¡œ ë°›ì„ ìˆ˜ ìˆë‹¤.(Productê°€ íƒ€ì…ì˜ ê³µí†µë¶„ëª¨ê°œë…)
 		if(money < p.price) {
-			System.out.println("±İ¾×ÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+			System.out.println("ê¸ˆì•¡ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 			return;			
 		}
 		
 		money -= p.price;
 		bonusPoint += p.bonusPoint;
-				System.out.println(p.toString()+"±¸¸Å¿Ï·á");
+				System.out.println(p.toString()+"êµ¬ë§¤ì™„ë£Œ");
 	}
 	
 	
 }
 
-//Product p = new Tv() // »ç¿ë °¡´ÉÇÑ ¸â¹ö °¹¼ö 2°³
-//Tv t = new Tv()      // »ç¿ë °¡´ÉÇÑ ¸â¹ö °¹¼ö 2°³
+//Product p = new Tv() // ì‚¬ìš© ê°€ëŠ¥í•œ ë©¤ë²„ ê°¯ìˆ˜ 2ê°œ
+//Tv t = new Tv()      // ì‚¬ìš© ê°€ëŠ¥í•œ ë©¤ë²„ ê°¯ìˆ˜ 2ê°œ

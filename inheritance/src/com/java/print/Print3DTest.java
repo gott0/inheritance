@@ -4,7 +4,7 @@ public class Print3DTest {
 
 	public static void main(String[] args) {
 		
-//		Print3D p3 = new Print3D(); //»ó¼Ó °ü°è°¡ ¾Æ´Ï±â ¶§¹®¿¡ super¸¦ ¾µ ¼ö ¾ø´Ù.
+//		Print3D p3 = new Print3D(); //ìƒì† ê´€ê³„ê°€ ì•„ë‹ˆê¸° ë•Œë¬¸ì— superë¥¼ ì“¸ ìˆ˜ ì—†ë‹¤.
 //		// Print3D() -> Print() -> object()
 //		            
 //		
